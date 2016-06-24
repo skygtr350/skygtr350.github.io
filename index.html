@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Geoff Haber's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Ruda:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/logo.jpg" alt="Geoff Haber's Udacity Portfolio" class="logo-image">
+        </div>
+        <div class="col-md-6 text-right text-uppercase">
+          <h1 class="text-thin title-sup">Geoff Haber</h1>
+          <h3 class="title-sub">Front-end Ninja</h3>
+        </div>
+      </div>
+        <hr>
+      <div class="row">
+        <div class="col-md-12">
+          <picture>
+            <source media="(min-width: 900px)" srcset="img/main-large.jpg">
+            <source media="(min-width: 550px)" srcset="img/main-medium.jpg">
+            <img src="img/main-small.jpg" alt="Geoff Haber's Portfolio" class="img-responsive center-block">
+          </picture>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h4 class="text-muted">Featured Work</h4>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <picture>
+            <source media="(min-width: 700px)" srcset="img/project1-large.jpg">
+            <img src="img/project1-medium.jpg" alt="Project 1 - " class="img-responsive" data-toggle="modal" data-target="#project1">
+          </picture>
+          <h5 class="text-uppercase">Project 1</h5>
+          <p><a href="#" class="nav-links">Project Link</a></p>
+        </div>
+        <div class="col-md-4">
+          <picture>
+            <source media="(min-width: 700px)" srcset="img/project2-large.jpg">
+            <img src="img/project2-medium.jpg" alt="Project 2 - " class="img-responsive" data-toggle="modal" data-target="#project2">
+          </picture>
+          <h5 class="text-uppercase">Project 2</h5>
+          <p><a href="#" class="nav-links">Project Link</a></p>
+        </div>
+        <div class="col-md-4">
+          <picture>
+            <source media="(min-width: 700px)" srcset="img/project3-large.jpg">
+            <img src="img/project3-medium.jpg" alt="Project 3 - " class="img-responsive" data-toggle="modal" data-target="#project3">
+          </picture>
+          <h5 class="text-uppercase">Project 3</h5>
+          <p><a href="#" class="nav-links">Project Link</a></p>
+        </div>
+      </div>
+    <hr>
+  <div class="row text-center">
+    <div class="col-md-12">
+      <footer class="nav">
+        <a href="#aboutMe"  class="texttrigger nav-links" data-toggle="modal">About Me</a>
+      </footer>
+    </div>
+  </div>
+</div>
+
+    <!-- Project Modals-->
+    <!-- TODO LIST
+    Add descriptions/project titles
+    Add About me info and portrait
+    -->
+
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="Project1" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="Project1">Project 1</h4>
+          </div>
+          <div class="modal-body">
+            <p>Long string of text for a description. Long string of text for a description. Long string of text for a description. Long string of text for a description. Long string of text for a description. Long string of text for a description. Long string of text for a description. Long string of text for a description. </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="Project2" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="Project2">Project 2</h4>
+          </div>
+          <div class="modal-body">
+            <p>Long string of text for a description. Long string of text for a description. Long string of text for a description. Long string of text for a description. Long string of text for a description. Long string of text for a description. Long string of text for a description. Long string of text for a description. </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="Project3" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="Project3">Project 3</h4>
+          </div>
+          <div class="modal-body">
+            <p>Long string of text for a description. Long string of text for a description. Long string of text for a description. Long string of text for a description. Long string of text for a description. Long string of text for a description. Long string of text for a description. Long string of text for a description. </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="aboutMe" tabindex="-1" role="dialog" aria-labelledby="AboutMe" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="AboutMe">About Me</h4>
+          </div>
+          <div class="modal-body">
+            <p>Long string of text for a description. Long string of text for a description. Long string of text for a description. Long string of text for a description. Long string of text for a description. Long string of text for a description. Long string of text for a description. Long string of text for a description. </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+body {
+  font-family: "Ruda", sans-serif;
+  color: #fff;
+  font-weight: 700;
+  background: #207786;
+}
+
+.text-thin {
+  font-weight: 400;
+}
+
+.title-sup {
+  font-size: 55px;
+  margin-bottom: 0;
+}
+
+.title-sub {
+  margin-top: 0;
+}
+
+.text-muted {
+  color: #bcbbbb;
+}
+
+.logo-image {
+  margin-top: 20px;
+}
+
+.nav-links {
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #bcbbbb;
+}
+
+.modal-content {
+  color: #207786;
+}
